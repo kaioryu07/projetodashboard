@@ -1,4 +1,0 @@
-streamlit
-pandas
-potly
-openpyxl #abrir arquivos xlsx
