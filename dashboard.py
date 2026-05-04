@@ -16,7 +16,7 @@ def main():
 
     data_filtrada = data.copy()
     if filtro_ano != 'Todos':
-        data_filtrada = data_filtrada[data_filtrada['Ano'] == filtro_ano]
+            data_filtrada = data_filtrada[data_filtrada['Ano'] == filtro_ano]
     if filtro_pais != 'Todos':
         data_filtrada = data_filtrada[data_filtrada['País'] == filtro_pais]
 
